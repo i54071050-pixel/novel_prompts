@@ -95,7 +95,7 @@ for i, char in enumerate(st.session_state.characters):
     )
 
 prompt_template = (
-    f"請幫我撰寫一段小說大綱。設定如下：\n"
+    f"請幫我逐章節撰寫小說。設定如下：\n"
     f"【世界觀】\n"
     f"- 故事背景：{background if background else '未設定'}\n"
     f"- 故事類別：{category if category else '未設定'}\n\n"
